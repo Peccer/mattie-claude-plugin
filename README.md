@@ -26,6 +26,8 @@ In Claude (web, desktop or mobile) you can also add Mattie as a connector by URL
 
 The first time Claude uses a Mattie tool, you sign in with Google. Mattie only gets your name and e-mail address.
 
+Setup guide, troubleshooting and more examples: <https://mattie.taskmastergpt.nl/en/claude>.
+
 ## Example prompts
 
 - "Find an evening next week, Friday or Saturday, 3 hours, when my climbing crew is free."
@@ -43,7 +45,7 @@ What the plugin sends, and where:
 - **Costs:** Mattie keeps the score and shows who pays whom. It never moves money. Cost lists are deleted 90 days after the last change.
 - **Delete everything:** ask Claude "delete my Mattie account", or go to Account on the website.
 
-Full policy (Dutch): <https://mattie.taskmastergpt.nl/privacy>. Terms: <https://mattie.taskmastergpt.nl/voorwaarden>.
+Full policy: <https://mattie.taskmastergpt.nl/en/privacy> (English) or <https://mattie.taskmastergpt.nl/privacy> (Dutch, leading). Terms: <https://mattie.taskmastergpt.nl/voorwaarden>.
 
 ## Support
 
