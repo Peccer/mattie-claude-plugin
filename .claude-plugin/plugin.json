@@ -1,0 +1,21 @@
+{
+  "name": "mattie",
+  "version": "0.1.0",
+  "description": "Find a time when your group of friends can meet, with consent from everyone, and split the costs afterwards. Connects Claude to the Mattie server.",
+  "author": {
+    "name": "Paco de Boer",
+    "url": "https://mattie.taskmastergpt.nl"
+  },
+  "homepage": "https://mattie.taskmastergpt.nl",
+  "repository": "https://github.com/Peccer/mattie-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "scheduling",
+    "calendar",
+    "friends",
+    "availability",
+    "cost splitting"
+  ],
+  "privacyPolicyUrl": "https://mattie.taskmastergpt.nl/privacy",
+  "icon": ".claude-plugin/icon.png"
+}
