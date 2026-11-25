@@ -40,7 +40,7 @@ Setup guide, troubleshooting and more examples: <https://mattie.taskmastergpt.nl
 What the plugin sends, and where:
 
 - **Only to Mattie** (`mattie.taskmastergpt.nl`), and only what a tool needs: group names, friends' names and e-mail addresses, the request window, busy times, and cost entries. Mattie never gets your conversation with Claude.
-- **Calendars:** a friend's calendar is read only after that friend says yes on their own link, for one request, and only free/busy (no titles, places or guests). Shared availability is deleted within 72 hours.
+- **Calendars:** a friend's calendar is read only after that friend says yes on their own link, for one request, and only free/busy (no titles, places or guests). Google Calendar, Outlook (personal accounts) and Apple iCloud work; an iCloud app-specific password is typed on Mattie's page, never in the chat, and forgotten after the one read. Shared availability is deleted within 72 hours.
 - **Screenshots:** Claude reads them, not Mattie. Claude sends only the busy times you checked, never the image.
 - **Costs:** Mattie keeps the score and shows who pays whom. It never moves money. Cost lists are deleted 90 days after the last change.
 - **Delete everything:** ask Claude "delete my Mattie account", or go to Account on the website.
