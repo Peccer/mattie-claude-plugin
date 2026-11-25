@@ -1,0 +1,15 @@
+{
+  "name": "mattie",
+  "description": "Mattie for Claude: find a time with friends and split the costs.",
+  "owner": {
+    "name": "Paco de Boer",
+    "url": "https://mattie.taskmastergpt.nl"
+  },
+  "plugins": [
+    {
+      "name": "mattie",
+      "source": "./",
+      "description": "Find a time when your group of friends can meet, and split the costs afterwards."
+    }
+  ]
+}

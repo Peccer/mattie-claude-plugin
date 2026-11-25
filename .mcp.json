@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mattie": {
+      "type": "http",
+      "url": "https://mattie.taskmastergpt.nl/mcp"
+    }
+  }
+}
