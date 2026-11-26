@@ -16,6 +16,8 @@ Mattie's tools come from the `mattie` MCP server in this plugin. The first call 
 
 Calendars are read only after each person says yes on their own link, and consent covers one request. For a new search, start a new request.
 
+On that link each friend picks Google Calendar, Outlook (personal accounts) or Apple iCloud, or ticks the moments that suit them. For iCloud, the friend creates an app-specific password at account.apple.com (Sign-In and Security, App-Specific Passwords) and types it on Mattie's page. Never ask for an Apple ID password or app-specific password in the chat, and if someone pastes one, tell them not to share it here and to use the link instead. Many iPhone users actually keep their calendar in Google or Outlook (Settings, Calendar, Accounts); then that button is easier.
+
 ## Calendar screenshots
 
 When the user shares a screenshot of a calendar (their own, or one a friend sent them):
