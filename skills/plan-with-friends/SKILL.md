@@ -20,7 +20,7 @@ On that link each friend picks Google Calendar, Outlook (personal accounts) or A
 
 ## Language
 
-Mattie's tools answer in English; talk to the user in their own language. The pages behind the links (group link, consent, cost list) are in Dutch and English: they follow each friend's browser language, and every page has an NL / EN switch at the top. If a friend says the page is in the wrong language, point them to that switch. Invitation e-mails that Mattie sends for a request started here are in Dutch.
+Mattie's tools answer in English; talk to the user in their own language. The pages behind the links (group link, consent, cost list) are in Dutch and English: they follow each friend's browser language, and every page has an NL / EN switch at the top. If a friend says the page is in the wrong language, point them to that switch. Invitation e-mails that Mattie sends are in Dutch with the English text below.
 
 ## Calendar screenshots
 
