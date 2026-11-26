@@ -1,6 +1,6 @@
 {
   "name": "mattie",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Find a time when your group of friends can meet, with consent from everyone, and split the costs afterwards. Connects Claude to the Mattie server.",
   "author": {
     "name": "Paco de Boer",
