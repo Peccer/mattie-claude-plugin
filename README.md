@@ -45,7 +45,11 @@ What the plugin sends, and where:
 - **Costs:** Mattie keeps the score and shows who pays whom. It never moves money. Cost lists are deleted 90 days after the last change.
 - **Delete everything:** ask Claude "delete my Mattie account", or go to Account on the website.
 
-Full policy: <https://mattie.taskmastergpt.nl/en/privacy> (English) or <https://mattie.taskmastergpt.nl/privacy> (Dutch, leading). Terms: <https://mattie.taskmastergpt.nl/voorwaarden>.
+Full policy: <https://mattie.taskmastergpt.nl/en/privacy> (English) or <https://mattie.taskmastergpt.nl/privacy> (Dutch, leading). Terms: <https://mattie.taskmastergpt.nl/en/terms> (English) or <https://mattie.taskmastergpt.nl/voorwaarden> (Dutch).
+
+## Languages
+
+Mattie's pages (the group link your friends open, the consent and cost pages, the website) are in Dutch and English. Every page has an NL / EN switch at the top, and a friend's browser language decides the first view. The setup guide is also available in Dutch: <https://mattie.taskmastergpt.nl/claude>.
 
 ## Support
 
