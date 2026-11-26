@@ -1,6 +1,6 @@
 ---
 name: plan-with-friends
-description: Plan a meet-up with a group of friends through Mattie - find a time everyone can make, read calendar screenshots the user shares, and split the costs afterwards. Use when the user wants to find a moment with friends, asks who can make it, shares a screenshot of a calendar for an outing, or wants to settle who pays whom.
+description: Plan a meet-up with a group of friends through Mattie - find a time everyone can make, read calendar screenshots the user shares, send a calendar invite with the outing's WhatsApp group link, and split the costs afterwards. Use when the user wants to find a moment with friends, asks who can make it, shares a screenshot of a calendar for an outing, wants an invite for the chosen time, or wants to settle who pays whom.
 ---
 
 # Plan a meet-up with Mattie
@@ -18,9 +18,17 @@ Calendars are read only after each person says yes on their own link, and consen
 
 On that link each friend picks Google Calendar, Outlook (personal accounts) or Apple iCloud, or ticks the moments that suit them. For iCloud, the friend creates an app-specific password at account.apple.com (Sign-In and Security, App-Specific Passwords) and types it on Mattie's page. Never ask for an Apple ID password or app-specific password in the chat, and if someone pastes one, tell them not to share it here and to use the link instead. Many iPhone users actually keep their calendar in Google or Outlook (Settings, Calendar, Accounts); then that button is easier.
 
+## Send the invite
+
+Once the user picks a time, `make_invite` with `start` (and `request_id`, which fills in the title and duration) gives one `invite_url` for the group chat: friends add it to their Apple, Google or Outlook calendar with one tap.
+
+Many groups make a separate WhatsApp group for an outing. Ask if they have one: the user creates it in WhatsApp and copies its link (Group info, Invite via link, Copy link). Pass it as `whatsapp_link` so it ends up in the invite. Only `https://chat.whatsapp.com/...` links work. Mattie never contacts WhatsApp. If a cost list already exists, pass its link as `cost_url`.
+
+After the outing, follow `after_event`: offer to split the costs with `start_costs`, and suggest leaving or archiving the outing's WhatsApp group and resetting its invite link.
+
 ## Language
 
-Mattie's tools answer in English; talk to the user in their own language. The pages behind the links (group link, consent, cost list) are in Dutch and English: they follow each friend's browser language, and every page has an NL / EN switch at the top. If a friend says the page is in the wrong language, point them to that switch. Invitation e-mails that Mattie sends are in Dutch with the English text below.
+Mattie's tools answer in English; talk to the user in their own language. The pages behind the links (group link, consent, invite, cost list) are in Dutch and English: they follow each friend's browser language, and every page has an NL / EN switch at the top. If a friend says the page is in the wrong language, point them to that switch. Invitation e-mails that Mattie sends are in Dutch with the English text below. The text inside a calendar invite is Dutch unless you pass `language="en"`.
 
 ## Calendar screenshots
 
